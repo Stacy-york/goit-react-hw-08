@@ -1,0 +1,28 @@
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding: 12px 24px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: color 0.2s ease;
+}
+
+.nav a:hover,
+.nav a:focus {
+    color: #007bff;
+}
+
+.nav .active {
+    color: #007bff;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 4px;
+}
